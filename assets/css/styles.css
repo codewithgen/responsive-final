@@ -148,6 +148,7 @@ img,
 video {
   max-width: 100%;
   height: auto;
+  border-radius: 15px;
 }
 
 button,
@@ -363,6 +364,7 @@ input {
   right: 0;
   bottom: 1rem;
   width: 228px;
+  border-radius: 15px;
 }
 
 .home__info-title {
