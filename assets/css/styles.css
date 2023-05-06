@@ -58,7 +58,12 @@ font-family: 'Roboto', sans-serif; */
   --img-transition: .3s;
   --img-hidden: hidden;
   --img-scale: scale(1.1);
+
+   /*========== Border ==========*/
+   --border-radius: 15px;
 }
+
+ 
 
 @media screen and (min-width: 968px) {
   :root {
@@ -392,6 +397,7 @@ input {
   padding: 1rem 2rem;
   font-weight: var(--font-semi-bold);
   transition: .3s;
+  border-radius: var(--border-radius)
 }
 
 .button:hover {
@@ -471,6 +477,7 @@ input {
 .discover__title, 
 .discover__description {
   color: var(--white-color);
+  text-shadow: 0 0 1px black;
 }
 
 .discover__title {
@@ -981,11 +988,18 @@ input {
     width: 237px;
   }
   .discover__container {
-    width: 700px;
+    width: 950px;
+    margin: auto;
   }
+
+  .discover__container > .swiper-wrapper {
+    display: flex;
+    gap: 15px;
+  }
+
   .discover__data {
-    left: 1.5rem;
-    bottom: 2rem;
+    left: 3.5rem;
+    bottom: 4rem;
   }
   .discover__title {
     font-size: var(--h2-font-size);
