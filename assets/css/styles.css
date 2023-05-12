@@ -98,7 +98,7 @@ body.dark-theme {
   bottom: 4rem;
 }
 
-.change-theme, .change-theme-name {
+.change-theme, .dark {
   color: var(--text-color);
 }
 
@@ -107,7 +107,7 @@ body.dark-theme {
   font-size: 1rem;
 }
 
-.change-theme-name {
+.dark {
   font-size: var(--small-font-size);
 }
 
@@ -601,6 +601,7 @@ row-gap: 15px;
 /*=============== PLACES ===============*/
 .place__card, .place__img {
   height: 230px;
+  width: 100%;
 }
 
 .place__container {
