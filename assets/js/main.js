@@ -152,10 +152,4 @@ function changeMode() {
     body.classList.toggle("dark-theme");
     let button = document.getElementById('theme-button');
     
-    // change the button text
-    if (button.innerHTML == "Dark Mode") {
-       button.innerHTML = "Normal Mode";
-    } else {
-       button.innerHTML = "Dark Mode"
-    }
  }
